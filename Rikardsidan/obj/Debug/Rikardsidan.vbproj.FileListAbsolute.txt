@@ -1,0 +1,8 @@
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\bin\Rikardsidan.dll
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\bin\Rikardsidan.pdb
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\bin\Rikardsidan.xml
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.Resources.resources
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.vbproj.GenerateResource.Cache
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.dll
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.xml
+c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.pdb

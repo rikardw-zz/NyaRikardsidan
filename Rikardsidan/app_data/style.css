@@ -1,0 +1,27 @@
+﻿h1 {
+    font-size: 24px;
+}
+
+h2 {
+}
+
+p {
+
+}
+
+.header {    
+    width: 100%;
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+}
+
+.content {
+    background-color: yellow;
+}
+
+body {
+
+}
