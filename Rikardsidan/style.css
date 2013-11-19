@@ -19,6 +19,11 @@ p {
     
 }
 
+body {
+    margin: 0px;
+    background-image: url(background2.png);
+}
+
 .titlecontainer {    
     overflow: hidden;
     width: 100%;    
@@ -43,7 +48,7 @@ p {
     text-shadow:5px 5px 5px black;   
 }
 
-.titleoptions {
+.login {
     font-family: helvetica;
     color: white; 
     padding: 10px;          
@@ -55,11 +60,10 @@ p {
 }
 
 .contentholder {  
-    border-radius: 20px 20px 20px 20px;  
+    border-radius: 0px 0px 20px 20px;  
     background-color: rgba(0,0,0,0.7);
-    padding: 10px;
-    padding-top: 0px;
-    min-height: 650px;
+    padding: 10px;    
+    min-height: 570px;
     width: 100%;
 
 }
@@ -72,37 +76,30 @@ p {
     min-height: 550px;           
 }
 
-.menu {
-    font-size: 20px;
-    width: 100%;    
-    color: white;
-    font-family: Arial;        
-
-}
-
 .container {
     margin: auto;
-    width: 1000px;    
+    width: 980px;    
 }
 
-body {
-    margin: 0px;
-    background-image: url(background2.png);
+.infofield {
+    float: left;      
 }
+
 
 #cssmenu,
 #cssmenu ul,
 #cssmenu li #cssmenu a {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   border: 0;
   font-size: 14px;
   font-family: Helvetica;
+  letter-spacing:2px;  
   line-height: 1;
 }
 #cssmenu {
-  width: auto;
+  width: 1000px;
 }
 #cssmenu ul {
   zoom: 1;
@@ -134,7 +131,7 @@ body {
   border-right: 1px solid #000000;
 }
 #cssmenu a:hover {
-  color: #000000;
+  color: #808080;
   text-shadow: 0 1px 1px #343434;
 }
 #cssmenu li {

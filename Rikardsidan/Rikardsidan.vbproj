@@ -82,13 +82,48 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app_data\style.css" />
+    <Content Include="bli_medlem.aspx" />
+    <Content Include="blogg.aspx" />
+    <Content Include="cv.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="index.aspx">
       <BrowseToURL>~/index.aspx</BrowseToURL>
     </Content>
+    <Content Include="projekt.aspx">
+      <BrowseToURL>projekt~/2.aspx</BrowseToURL>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bli_medlem.aspx.designer.vb">
+      <DependentUpon>bli_medlem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bli_medlem.aspx.vb">
+      <DependentUpon>bli_medlem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="blogg.aspx.designer.vb">
+      <DependentUpon>blogg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="blogg.aspx.vb">
+      <DependentUpon>blogg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="cv.aspx.designer.vb">
+      <DependentUpon>cv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cv.aspx.vb">
+      <DependentUpon>cv.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -120,6 +155,13 @@
     </Compile>
     <Compile Include="index.aspx.vb">
       <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="projekt.aspx.designer.vb">
+      <DependentUpon>projekt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="projekt.aspx.vb">
+      <DependentUpon>projekt.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

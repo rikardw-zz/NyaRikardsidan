@@ -19,19 +19,18 @@
                         <h1>Rikardsidan</h1>
                     </div>
                     <div class="subtitle">Min ihopsnickrade sida och portfolio</div>
-                    <div class="titleoptions">Meny 1 - Meny 2 - Meny 3</div>
+                    <div class="login">Logga in</div>
+                </div>
+                <div id='cssmenu'>
+                    <ul>
+                        <li class='active'><a href='index.aspx'><span>Start</span></a></li>
+                        <li><a href='projekt.aspx'><span>Projekt</span></a></li>
+                        <li><a href='cv.aspx'><span>CV</span></a></li>
+                        <li class='last'><a href='blogg.aspx'><span>Blogg</span></a></li>
+                        <li><a href='bli_medlem.aspx'><span>Bli medlem</span></a></li>
+                    </ul>
                 </div>
                 <div class="contentholder">
-                    <div class="menu">
-                        <div id='cssmenu'>
-                            <ul>
-                                <li class='active'><a href='index.html'><span>Home</span></a></li>
-                                <li><a href='#'><span>Products</span></a></li>
-                                <li><a href='#'><span>About</span></a></li>
-                                <li class='last'><a href='#'><span>Contact</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
                     <div class="content">
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                     </div>
