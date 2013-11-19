@@ -1,33 +1,91 @@
 ﻿h1 {
-    font-size: 24px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow:5px 5px 10px black;    
+    margin: 0px;
+    padding: 0;
+    font-family: Fugaz One;
+    color: white;    
 }
 
 h2 {
+    font-size: 20px;    
+    text-shadow:5px 5px 10px black;    
+    margin: 0px;
+    font-family: Fugaz One;
+    color: lightgrey;
 }
 
 p {
-
-}
-
-.header {    
-    background-color: black;
-    height: 150px;
-    width: 100%;
-}
-
-.footer {
-    background-color: black;
-    width: 100%;
-    height: 100px;
     
+}
+
+.titlecontainer {    
+    overflow: hidden;
+    width: 100%;    
+
+}
+
+.title {   
+    padding-left: 5px;
+    float: left;   
+    padding-top: 30px;    
+    width: 300px;  
+    margin-bottom: 10px;      
+}
+
+.subtitle {
+    font-family: Fugaz One;
+    color: white;
+    text-shadow:5px 5px 10px black;     
+    float: left;          
+    position: relative;
+    left: -300px;
+    top: 85px;	
+}
+
+.titleoptions {
+    font-family: Arial;
+    color: white; 
+    padding: 10px;          
+    float: right;  
+    width: 300px;   
+    margin-top: 50px;    
+    text-align: right;
+    font-variant: small-caps;
+}
+
+.contentholder {  
+    border-radius: 20px 20px 20px 20px;  
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    min-height: 600px;
+    width: 100%;
+
 }
 
 .content {
     background-color: yellow;
-    height: 700px;
+    border-radius: 3px 3px 3px 3px;  
+    padding: 3px;
+    min-height: 500px;           
+}
 
+.menu {
+    font-size: 20px;
+    width: 100%;
+    height: 70px;
+    color: white;
+    font-family: Arial;        
+
+}
+
+.container {
+    margin: auto;
+    width: 1000px;    
 }
 
 body {
     margin: 0px;
+    background-image: url(background2.png);
 }

@@ -7,24 +7,28 @@
     <title>Rikardsidan</title>
     <asp:ContentPlaceHolder ID="head" runat="server" />
     <meta charset="utf-8">
-	<link rel="stylesheet" href="style.css" type="text/css">	
+        <link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-       
-            <div class="header">
-
+        <div>
+            <div class="container">
+                <div class="titlecontainer">
+                    <div class="title">
+                        <h1>Rikardsidan</h1>
+                    </div>
+                    <div class="subtitle">Alternate text to rikardwiklander.com</div>
+                    <div class="titleoptions">Meny 1 - Meny 2 - Meny 3</div>
+                </div>
+                <div class="contentholder">
+                    <div class="menu">Start - Blogg - Exempelsidan - </div>
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>                        
+                    </div>
+                </div>
             </div>
-            <div class="content">
-                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
-            </div>
-            <div class="footer">
-
-            </div>
-        
-        
-    </div>
+        </div>
     </form>
 </body>
 </html>

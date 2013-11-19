@@ -6,3 +6,12 @@ c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\ob
 c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.dll
 c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.xml
 c:\users\rikard\documents\visual studio 2013\Projects\Rikardsidan\Rikardsidan\obj\Debug\Rikardsidan.pdb
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\bin\Rikardsidan.dll
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\bin\Rikardsidan.pdb
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\bin\Rikardsidan.xml
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\obj\Debug\Rikardsidan.Resources.resources
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\obj\Debug\Rikardsidan.vbproj.GenerateResource.Cache
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\obj\Debug\Rikardsidan.dll
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\obj\Debug\Rikardsidan.xml
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\obj\Debug\Rikardsidan.pdb
+C:\Users\Rikard\Documents\Visual Studio 2012\Projects\Lab4Uppgift3\NyaRikardsidan\Rikardsidan\obj\Debug\Rikardsidan.vbprojResolveAssemblyReference.cache
