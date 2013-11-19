@@ -18,13 +18,22 @@
                     <div class="title">
                         <h1>Rikardsidan</h1>
                     </div>
-                    <div class="subtitle">Alternate text to rikardwiklander.com</div>
+                    <div class="subtitle">Min ihopsnickrade sida och portfolio</div>
                     <div class="titleoptions">Meny 1 - Meny 2 - Meny 3</div>
                 </div>
                 <div class="contentholder">
-                    <div class="menu">Start - Blogg - Exempelsidan - </div>
+                    <div class="menu">
+                        <div id='cssmenu'>
+                            <ul>
+                                <li class='active'><a href='index.html'><span>Home</span></a></li>
+                                <li><a href='#'><span>Products</span></a></li>
+                                <li><a href='#'><span>About</span></a></li>
+                                <li class='last'><a href='#'><span>Contact</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="content">
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>                        
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
             </div>
