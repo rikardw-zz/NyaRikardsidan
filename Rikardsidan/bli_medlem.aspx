@@ -5,41 +5,28 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="infofield">
         <p>
-            <asp:Label ID="lblForename" runat="server" Text="Förnamn:"></asp:Label>
+            <asp:Label class="label" ID="lblForename" runat="server" Text="Förnamn:"></asp:Label>
+            <asp:TextBox class="form-field" ID="tForename" runat="server" Width="128px" />
         </p>
         <p>
-            <asp:Label ID="lblLastname" runat="server" Text="Efternamn:"></asp:Label>
+            <asp:Label class="label" ID="lblLastname" runat="server" Text="Efternamn:"></asp:Label>
+            <asp:TextBox class="form-field" ID="tbLastname" runat="server" Width="128px" />
         </p>
         <p>
-            <asp:Label ID="lblemail" runat="server" Text="E-post:"></asp:Label>
+            <asp:Label class="label" ID="lblemail" runat="server" Text="E-post:"></asp:Label>
+            <asp:TextBox class="form-field" ID="tbemail" runat="server" Width="128px" />
         </p>
         <p>
-            <asp:Label ID="lblPassword" runat="server" Text="Lösenord:"></asp:Label>
+            <asp:Label class="label" ID="lblPassword" runat="server" Text="Lösenord:"></asp:Label>
+            <asp:TextBox class="form-field" ID="tbPassword" runat="server" Width="128px" />
         </p>
         <p>
-            <asp:Label ID="lblPasswordAgain" runat="server" Text="Repetera lösenord:"></asp:Label>
+            <asp:Label class="label" ID="lblPasswordAgain" runat="server" Text="Repetera lösenord:"></asp:Label>
+            <asp:TextBox class="form-field" ID="tbPasswordAgain" runat="server" Width="128px" />
 
         </p>
         <p>
-            <asp:Button ID="submit" runat="server" OnClick="submit_Click" Text="Skicka uppgifter" />
+            <asp:Button class="label" ID="submit" runat="server" OnClick="submit_Click" Text="Skicka uppgifter" />
         </p>
-    </div>
-    <div class="infofield">
-        <p>
-
-            <asp:TextBox ID="tForename" runat="server" Width="128px" />
-        </p>
-        <p>
-            <asp:TextBox ID="tbLastname" runat="server" Width="128px" />
-        </p>
-        <p>
-            <asp:TextBox ID="tbemail" runat="server" Width="128px" />
-        </p>
-        <p>
-            <asp:TextBox ID="tbPassword" runat="server" Width="128px" />
-        </p>
-        <p>
-            <asp:TextBox ID="tbPasswordAgain" runat="server" Width="128px" />
-        </p>
-    </div>
+    </div>       
 </asp:Content>

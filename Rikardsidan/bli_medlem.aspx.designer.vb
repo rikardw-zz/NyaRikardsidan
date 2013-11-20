@@ -23,6 +23,15 @@ Partial Public Class bli_medlem
     Protected WithEvents lblForename As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''tForename control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tForename As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''lblLastname control.
     '''</summary>
     '''<remarks>
@@ -66,15 +75,6 @@ Partial Public Class bli_medlem
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents submit As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''tForename control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents tForename As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''tbLastname control.

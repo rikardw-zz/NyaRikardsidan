@@ -14,6 +14,14 @@ lblForename control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Rikardsidan.bli_medlem.tForename">
+	<summary>
+tForename control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Rikardsidan.bli_medlem.lblLastname">
 	<summary>
 lblLastname control.
@@ -49,14 +57,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:Rikardsidan.bli_medlem.submit">
 	<summary>
 submit control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Rikardsidan.bli_medlem.tForename">
-	<summary>
-tForename control.
 </summary>
 	<remarks>
 Auto-generated field.
